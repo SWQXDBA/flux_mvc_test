@@ -16,6 +16,11 @@
     <properties>
         <java.version>18</java.version>
     </properties>
+    <modules>
+        <module>mvc</module>
+        <module>webflux</module>
+    </modules>
+    <packaging>pom</packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
